@@ -34,27 +34,11 @@ The Q-table is persisted using Pickle and reused during evaluation for determini
 - Smoothing achieved through np.convolve for learning curve visualisation
 - Model persistence using Pickle
 
-![Q Learning Rule](image.png)
+![Q Learning Rule](image.jpg)
 
 ## Performance 🎯
 
-[Performance Graph](performance_graph.png)
+![Performance Graph](performance_graph.png)
 
-Approximately 62% evaluation success after traininf for 20,000 episodes.
-
-## Download Steps 📋
-
-'''
-# Create virtual environment
-python -m venv venv
-'''
-
-'''
-# Activate virtual environment
-
-# macOS / Linux
-source venv/bin/activate
-
-# Windows (PowerShell)
-venv\Scripts\Activate.ps1
-'''
+- Approximately 62% agent level success during evaluation phase
+- Q Values were built from 20,000 episodes of training
